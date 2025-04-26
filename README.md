@@ -84,6 +84,7 @@ The system will return:
 - ✅ A generated answer  
 - 📄 The source document metadata
 
+
 ---
 
 ## 🧪 Example Output
@@ -93,6 +94,8 @@ The system will return:
 
     📄 Sources:
      - docs/company_policy.pdf
+    
+    ![Example Retrieval Screenshot](assets/RAG_query_combo.jpg)
 
 ---
 
