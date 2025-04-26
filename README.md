@@ -2,7 +2,10 @@
 
 A **lightweight, offline-ready Retrieval-Augmented Generation (RAG)** pipeline to query PDF documents using **local embeddings** and a **local language model**. Built with `LangChain`, `FAISS`, `sentence-transformers`, and `transformers`, this project enables **privacy-conscious document Q&A** directly from the command line — no cloud APIs required.
 
+Question asked: "How do we answer queries from local PDFs without hallucination?"
+The way I answered this: Retrieval-Augmented Generation (RAG) enhances LLM performance by grounding generation in real-world documents, improving factual accuracy and reducing hallucinations. This prototype demonstrates a simple local RAG pipeline for PDF document QA.
 ---
+
 
 ## 🚀 Features
 
@@ -13,6 +16,13 @@ A **lightweight, offline-ready Retrieval-Augmented Generation (RAG)** pipeline t
 - 🧠 Based on LangChain + FAISS + HuggingFace Transformers
 
 ---
+
+## Technical Stack
+
+* Python
+* FAISS for vector search
+* Hugging Face Transformers
+* SentenceTransformers for embedding model
 
 ## 📁 Project Structure
 
