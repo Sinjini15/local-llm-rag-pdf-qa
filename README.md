@@ -95,8 +95,8 @@ The system will return:
     📄 Sources:
      - docs/company_policy.pdf
     
-    ![Example Retrieval Screenshot](assets/RAG_query_combo.jpg)
-
+    
+![Example Retrieval Screenshot](assets/RAG_query_combo.jpg)
 ---
 
 ## 🧰 Extending the Project
