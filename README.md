@@ -4,7 +4,7 @@ A **lightweight, offline-ready Retrieval-Augmented Generation (RAG)** pipeline t
 
 Question asked: "How do we answer queries from local PDFs without hallucination?"
 The way I answered this: Retrieval-Augmented Generation (RAG) enhances LLM performance by grounding generation in real-world documents, improving factual accuracy and reducing hallucinations. This prototype demonstrates a simple local RAG pipeline for PDF document QA.
----
+
 
 
 ## 🚀 Features
