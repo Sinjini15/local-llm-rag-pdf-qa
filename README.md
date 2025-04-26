@@ -56,7 +56,7 @@ pip install -r requirements.txt
 |----------------|------------------------------------------|
 | Embeddings     | `sentence-transformers/all-MiniLM-L6-v2` |
 | LLM (CPU safe) | `google/flan-t5-base`                    |
-
+```
 
 You can swap these models out for larger or GPU-based models if needed.
 
@@ -71,7 +71,7 @@ This script will:
 
 ```bash
 python ingest.py
-
+```
 ---
 
 ## ❓ How to Ask Questions (CLI)
