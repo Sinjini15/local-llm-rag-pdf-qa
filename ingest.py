@@ -1,9 +1,7 @@
 import logging
 from dotenv import load_dotenv
 
-from utils import download_pdf_if_needed
-from utils import load_and_split_pdf
-from utils import embed_and_store
+from utils import download_pdf_if_needed,load_and_split_pdf, embed_and_store
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format="[%(levelname)s] %(message)s")

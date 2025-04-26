@@ -97,6 +97,15 @@ The system will return:
     
     
 ![Example Retrieval Screenshot](assets/RAG_query_combo.jpg)
+
+Retrieval latency: ~1.205 seconds on GPU
+
+## 🛠️ Deployment/Design Comments
+
+* System designed for lightweight local deployment.
+* No external API calls required — fully offline retrieval and QA.
+* Optimized for small footprint (under 500 MB total model size).
+
 ---
 
 ## 🧰 Extending the Project

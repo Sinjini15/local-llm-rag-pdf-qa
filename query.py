@@ -1,7 +1,6 @@
 import argparse
-from utils import load_llm
-from utils import load_vector_store
-from utils import run_query
+import time
+from utils import load_llm, load_vector_store, run_query
 
 def main():
     parser = argparse.ArgumentParser(description="RAG QA over PDF docs using local models.")
@@ -18,12 +17,18 @@ def main():
     llm = load_llm(LLM_MODEL)
 
     print(f"[INFO] Processing query: {args.query}")
+    start_time = time.time()
     result = run_query(args.query, vector_store, llm)
+    end_time = time.time()
+    
+    latency = end_time - start_time #Calculate latency
 
     print("\n✅ Answer:\n", result["result"])
     print("\n📄 Sources:")
     for doc in result["source_documents"]:
         print(" -", doc.metadata.get("source", "Unknown source"))
+    
+    print(f"\nRetrieval latency: {latency: .3f} seconds")
 
 if __name__ == "__main__":
     main()
