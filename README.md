@@ -100,11 +100,23 @@ The system will return:
 
 Retrieval latency: ~1.205 seconds on GPU
 
+## Databricks Cloud Version
+
+- Implemented a lightweight Retrieval-Augmented Generation (RAG) pipeline entirely inside Databricks Community Edition.
+- Used HuggingFace models for embedding, cosine similarity for retrieval, and optional QA generation.
+- Project demonstrates Databricks environment setup, LLM-based retrieval workflows, and scalable cloud execution without file dependencies.
+
+The notebook: databricks_notebooks/RAG_pipeline.ipynb
+
+
 ## 🛠️ Deployment/Design Comments
 
 * System designed for lightweight local deployment.
 * No external API calls required — fully offline retrieval and QA.
 * Optimized for small footprint (under 500 MB total model size).
+* Developed and deployed a Retrieval-Augmented Generation (RAG) pipeline inside Databricks Community Edition using HuggingFace models and cosine similarity retrieval.
+* Demonstrated cloud-native ML pipeline development, embedding generation, retrieval workflows, and QA model integration.
+
 
 ---
 
